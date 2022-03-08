@@ -6,11 +6,11 @@ module.exports = {
   entry: {
     index: "./src/index.js",
     print: "./src/print.js",
+    another: "./src/another-module.js",
   },
   devtool: "inline-source-map",
   devServer: {
     static: "./dist",
-    // port: 5678,
   },
   plugins: [
     new HtmlWebpackPlugin({
